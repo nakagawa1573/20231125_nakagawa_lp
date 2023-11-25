@@ -10,7 +10,8 @@ a{
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 0 30px;
+    margin: 0 auto;
+    width: 1000px;
 }
 
 .header-logo {
@@ -43,12 +44,11 @@ a{
 }
 
 .first {
-    margin: 0 0 0 auto;
 text-align: right;
-position: relative;
 width: 1000px;
+    margin: 0  auto;
+    position: relative;
 }
-
 .first-img {
     width: 60%;
     
@@ -94,7 +94,7 @@ width: 1000px;
 }
 
 .news {
-    width: 800px;
+    width: 700px;
     margin: 80px auto;
 }
 
@@ -113,6 +113,7 @@ width: 1000px;
 .news-list {
     border-top: 2px solid #a9a9a9;
     border-bottom: 2px solid #a9a9a9;
+    font-size: 14px;
 }
 
 .news-item {
@@ -123,7 +124,7 @@ width: 1000px;
 }
 
 .news-item:first-of-type {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .news-item:last-of-type {
@@ -154,8 +155,8 @@ width: 1000px;
 }
 .about-wrapper{
     margin: 0 auto;
-    width: 800px;
-    padding: 30px 100px;
+    width: 1000px;
+    padding: 30px 0;
 }
 .about-ttl {
     color: #b31478;
@@ -171,47 +172,50 @@ width: 1000px;
 }
 
 .about-detail {
-    width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .about-detail-text {
     width: 340px;
     text-align: left;
     font-size: 14px;
-    line-height: 150%;
+    line-height: 180%;
     color: #808080;
+    margin-right: 100px;
 }
 
 .about-detail-img {
-    width: 30%;
-    padding: 0 200px 0 0;
+    width: 35%;
 }
 
 .service {
     width: 1000px;
     margin: 80px auto;
 }
-
+.service-wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
 .service-ttl {
     color: #b31478;
     font-family: 'Caveat', cursive;
-    margin-bottom: 20px;
+    margin: 0 0 15px 50px;
     font-size: 20px;
 }
 
 .service-description {
-    font-size: 25px;
+    font-size: 20px;
     color: #808080;
-    margin-bottom: 40px;
+    margin:0 0 40px 50px;
 }
 
 .service-card {
     display: flex;
     margin: 0 auto;
     color: white;
+    padding:0 50px;
 }
 
 .service-card1 {
@@ -221,13 +225,13 @@ width: 1000px;
 }
 
 .service-card1-img {
-    width: 150px;
-    margin-top: 50px;
+    width: 120px;
+    margin-top: 40px;
 }
 
 .service-card1-ttl {
     margin-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .service-card1-text {
@@ -252,22 +256,23 @@ width: 1000px;
 }
 
 .service-item-img {
-    width: 150px;
+    width: 120px;
     margin: 30px 20px;
 }
 
 .service-item-textarea {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .service-item-ttl {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 
 .service-item-text {
-    width: 290px;
-    line-height: 180%;
+    width: 270px;
+    line-height: 170%;
+    font-size: 15px;
     
 }
 
@@ -279,18 +284,19 @@ width: 1000px;
 }
 
 .blog-wrapper {
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
+    padding: 0 50px;
 }
 .blog-ttl{
     color: #b31478;
     font-family: 'Caveat', cursive;
-    margin-bottom: 20px;
     font-size: 20px;
 }
 .blog-description{
     font-size: 25px;
     color: #808080;
+    margin: 20px 0;
 }
 .blog-card {
     margin-top: 30px;
@@ -320,10 +326,11 @@ width: 1000px;
     background: white;
     color: #808080;
     border-radius: 0 0 10px 10px;
-    padding:20px 30px;
+    padding:20px 20px;
 }
 .blog-card-ttl{
-    line-height: 180%;
+    line-height: 170%;
+    font-size: 15px;
 }
 .blog-card-box{
     margin-top: 30px;
@@ -386,7 +393,7 @@ width: 100%;
 }
 .content-link-text{
     color:white ;
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
